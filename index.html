@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans antialiased">
+
+    <!-- Header & Navbar -->
+    <header class="bg-gray-800 text-white">
+        <div class="container mx-auto px-4 py-5 flex justify-between items-center">
+            <h1 class="text-3xl font-bold">My Website</h1>
+            <nav class="space-x-6">
+                <a href="#hero" class="hover:text-gray-400">Home</a>
+                <a href="#about" class="hover:text-gray-400">About</a>
+                <a href="#gallery" class="hover:text-gray-400">Gallery</a>
+                <a href="#footer" class="hover:text-gray-400">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="bg-cover bg-center h-screen text-white flex items-center justify-center" style="background-image: url('https://source.unsplash.com/random/1920x1080');">
+        <div class="text-center">
+            <h2 class="text-4xl md:text-6xl font-bold">Welcome to My Landing Page</h2>
+            <p class="text-lg md:text-2xl mt-4">A responsive landing page template built with Tailwind CSS</p>
+            <a href="#about" class="mt-8 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">About Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-3">Feature One</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-3">Feature Two</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-3">Feature Three</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-3">Feature Four</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section id="gallery" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Gallery</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <img src="/ii.PNG" class="w-full h-full object-cover rounded-lg shadow-lg" alt="Gallery Image 1">
+                <img src="ii.PNG" class="w-full h-full object-cover rounded-lg shadow-lg" alt="Gallery Image 2">
+                <img src="ii.PNG" class="w-full h-full object-cover rounded-lg shadow-lg" alt="Gallery Image 3">
+                <img src="ii.PNG" class="w-full h-full object-cover rounded-lg shadow-lg" alt="Gallery Image 4">
+                <img src="ii.PNG" class="w-full h-full object-cover rounded-lg shadow-lg" alt="Gallery Image 5">
+                <img src="ii.PNG" class="w-full h-full object-cover rounded-lg shadow-lg" alt="Gallery Image 6">
+                <img src="ii.PNG" class="w-full h-full object-cover rounded-lg shadow-lg" alt="Gallery Image 7">
+                <img src="ii.PNG" class="w-full h-full object-cover rounded-lg shadow-lg" alt="Gallery Image 8">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer" class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-sm">&copy; 2023 My Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
